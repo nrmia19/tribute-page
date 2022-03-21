@@ -1,0 +1,102 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+/* navigasi */
+.nav-menu {
+  background-color: #eeedde;
+}
+
+ul {
+  padding: 20px;
+  margin: auto;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: serif;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+li :hover {
+  color: #e0ddaa;
+}
+
+/* styling judul header */
+h2 {
+  text-align: center;
+  font-family: serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #e0ddaa;
+}
+
+/* sidebar-kiri */
+.sidebar-kiri {
+  float: left;
+  width: 70%;
+}
+
+.sidebar-kiri .card {
+  background-color: #eeedde;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-family: "Red Hat Mono", monospace;
+  color: black;
+}
+
+p {
+  text-align: justify;
+}
+
+.sidebar-kanan {
+  display: flex;
+  width: 30%;
+}
+
+.sidebar-kanan .card {
+  background-color: #eeedde;
+  padding: 10px;
+  margin-right: 5px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+/* responsive navbar */
+@media screen and (max-width: 300px) {
+  .nav-menu a {
+    float: none;
+    width: 100%;
+  }
+}
+/* responsive content */
+@media screen and (max-width: 500px) {
+  .sidebar-kiri,
+.sidebar-kanan {
+    width: 100%;
+    padding: 0;
+  }
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #eeedde;
+  margin-top: 100px;
+}
+
+.footer p {
+  text-align: center;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
